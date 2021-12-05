@@ -90,7 +90,7 @@ fn populate_line_map(line_map: &mut HashMap<(usize,usize), usize>, point_1: (usi
             Some((x,y)) => {
                 update_map(line_map, x, y);
             },
-            None => { break}
+            None => { break }
         };        
     };
 
