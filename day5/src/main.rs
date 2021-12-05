@@ -60,7 +60,6 @@ struct LineIterator {
 
 impl Iterator for LineIterator {
     type Item = (usize, usize);
-    // let last_x = 0;
 
     fn next(&mut self) -> Option<(usize, usize)> {
         if self.done { 
