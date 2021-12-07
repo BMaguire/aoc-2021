@@ -17,8 +17,6 @@ pub mod file_util {
     }
 }
 
-
-
 #[cfg(test)]
 mod tests {
     #[test]
